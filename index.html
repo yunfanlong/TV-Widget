@@ -1,52 +1,32 @@
 <!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container" style="height:100%;width:100%">
-  <div class="tradingview-widget-container__widget" style="height:calc(100% - 32px);width:100%"></div>
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
   <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
   {
   "allow_symbol_change": true,
   "calendar": false,
-  "details": true,
-  "hide_side_toolbar": false,
+  "details": false,
+  "hide_side_toolbar": true,
   "hide_top_toolbar": false,
   "hide_legend": false,
   "hide_volume": false,
-  "hotlist": true,
-  "interval": "15",
+  "hotlist": false,
+  "interval": "D",
   "locale": "en",
   "save_image": true,
   "style": "1",
-  "symbol": "AMEX:SPY",
+  "symbol": "NASDAQ:AAPL",
   "theme": "light",
   "timezone": "Etc/UTC",
   "backgroundColor": "#ffffff",
   "gridColor": "rgba(46, 46, 46, 0.06)",
-  "watchlist": [
-    "NASDAQ:GMAB",
-    "NYSE:AAP",
-    "NASDAQ:ARRY",
-    "NYSE:BBAI",
-    "NASDAQ:CMPS",
-    "AMEX:INDO",
-    "NASDAQ:INM",
-    "AMEX:KULR",
-    "NYSE:LAD",
-    "NASDAQ:NEO",
-    "NASDAQ:PPTA",
-    "NASDAQ:RUN",
-    "NASDAQ:RZLV",
-    "NASDAQ:SDST",
-    "NYSE:TDOC",
-    "NYSE:ZETA"
-  ],
-  "withdateranges": true,
+  "watchlist": [],
+  "withdateranges": false,
   "compareSymbols": [],
-  "studies": [
-    "STD;RSI",
-    "Volume@tv-basicstudies",
-    "STD;SMA"
-  ],
-  "autosize": true
+  "studies": [],
+  "width": 1200,
+  "height": 900
 }
   </script>
 </div>
